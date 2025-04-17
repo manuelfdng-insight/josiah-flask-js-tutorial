@@ -1,0 +1,17 @@
+.todo-item.completed .todo-title {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.todo-description {
+    white-space: pre-line;
+}
+
+.edit-btn, .delete-btn {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
